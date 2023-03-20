@@ -1,0 +1,144 @@
+@media only screen and (max-width:1200px){
+    header{
+        height: 65vh;
+    }
+    .hero-text-box{
+        width:90%;
+    }
+    .btn:link, .btn:visited, .btn {
+        margin-top: 3rem;
+    }
+    .row{
+        margin: 0 15px;
+    }
+    .hero-text-box{
+        width:90%;
+    }
+}
+    @media only screen and (max-width:1024px){
+        header{
+            height: 65vh;
+        }
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+        box-sizing: border-box;
+    }
+    .client-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .contact-section form{
+        width: 100%;
+        margin-left: 0;
+    }
+    .mobail-menu span{
+        display: block;
+    }
+}
+@media only screen and (max-width:980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    .about-section .row img {
+        width: 45rem;
+        height: 45rem; 
+    }
+    .span_1_of_3{
+        width: 100%;
+    }
+    .span_1_of_2 {
+        width:100%;
+    }
+    .float-box h1 {
+        font-size: 4rem;
+    }
+    .float-box {
+        margin: 6rem 0;
+    }
+}
+@media only screen and (max-width:768px){
+    .little-description{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.2rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    header{
+        height: 60vh;
+    }
+    .float-box h1 {
+        font-size: 3.2rem;
+    }
+    .span_1_of_2 {
+        width:100%;
+    }
+    .float-box {
+        margin: 5rem 0;
+    }
+    .about-section .row img {
+        width: 40rem;
+        height: 40rem; 
+    }
+}
+@media only screen and (max-width:480px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.8rem;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4){
+        margin-top: 4rem;
+    }
+    header{
+        height: 65vh;
+    }
+    .btn:link, .btn:visited, .btn {
+        margin-top: 0;
+    }
+    .float-box h1 {
+        font-size: 2.5rem;
+    }
+    .float-box h3 {
+        font-size: 1.8rem;
+    }
+    .float-box p {
+        font-size: 1.6rem;
+    }
+    .about-section .row img {
+        width: 35rem;
+        height: 35rem; 
+    }
+}
